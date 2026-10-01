@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mess Management</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <h1>🍱 Mess Management</h1>
+      <p>Manage your hostel mess easily</p>
+    </div>
+    <button id="themeBtn" class="small-btn">🌙</button>
+  </header>
+
+  <main>
+    <section class="welcome">
+      <h2>Welcome, Student 👋</h2>
+      <p>Check today's menu, attendance, fees and feedback.</p>
+    </section>
+
+    <section class="cards">
+      <div class="card" onclick="showSection('menu')">
+        <span>🍽️</span><h3>Today's Menu</h3><p>View breakfast, lunch, snacks and dinner.</p>
+      </div>
+      <div class="card" onclick="showSection('attendance')">
+        <span>✅</span><h3>Attendance</h3><p>Mark your meal attendance.</p>
+      </div>
+      <div class="card" onclick="showSection('feedback')">
+        <span>⭐</span><h3>Feedback</h3><p>Rate today's mess food.</p>
+      </div>
+      <div class="card" onclick="showSection('complaint')">
+        <span>📝</span><h3>Complaint</h3><p>Report a mess issue.</p>
+      </div>
+      <div class="card" onclick="showSection('fees')">
+        <span>💰</span><h3>Mess Fees</h3><p>Check your payment status.</p>
+      </div>
+    </section>
+
+    <section id="content" class="panel">
+      <h2>Today's Menu</h2>
+      <div class="menu-grid">
+        <div><b>🌅 Breakfast</b><p>Idli, Sambar & Chutney</p></div>
+        <div><b>☀️ Lunch</b><p>Rice, Dal, Vegetable Curry & Curd</p></div>
+        <div><b>🍪 Snacks</b><p>Tea & Biscuits</p></div>
+        <div><b>🌙 Dinner</b><p>Chapati, Paneer Curry & Rice</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Mess Management App • Student Project</footer>
+  <script src="script.js"></script>
+</body>
+</html>

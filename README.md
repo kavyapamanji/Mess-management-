@@ -1,39 +1,20 @@
-# Mess Management Mobile App
+# Mess Management Web App
 
-A beginner-friendly Android application for managing hostel/college mess activities.
+A beginner-friendly responsive web application that can be deployed directly with GitHub Pages.
 
-## Current starter version
-- Today's Menu
-- Mess Attendance
-- Feedback
-- Complaints
-- Mess Fees
+## Files
+- index.html — page structure
+- style.css — design and responsive layout
+- script.js — buttons and interactive features
 
-The buttons currently show placeholder messages. We will build each feature step by step.
+## GitHub Pages deployment
+1. Create a GitHub repository, for example `mess-management-web`.
+2. Upload `index.html`, `style.css`, `script.js`, and `README.md` to the repository root.
+3. Open the repository's **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and `/ (root)`.
+6. Save.
+7. Wait for GitHub Pages to publish the site.
+8. Open the Pages URL shown by GitHub.
 
-## Planned full application
-1. Student Login/Register
-2. Dashboard
-3. Daily/weekly menu
-4. Breakfast/Lunch/Snacks/Dinner attendance
-5. Monthly attendance history
-6. Feedback and ratings
-7. Complaint submission and status
-8. Mess fee details and payment status
-9. Admin login
-10. Admin menu management
-11. Admin complaint management
-12. Database
-13. Backend API
-14. Security
-15. GitHub documentation
-
-## Technology path
-- Android Studio
-- Java
-- XML
-- SQLite initially
-- Spring Boot backend later
-- MySQL later
-- JDBC on backend
-- Git/GitHub
+The project is currently a frontend demo. It does not store real users or payments in a server database yet.
